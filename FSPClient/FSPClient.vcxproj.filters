@@ -1,0 +1,437 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="protocol">
+      <UniqueIdentifier>{c685eaf2-dfc4-40c8-a094-173c3cee5e80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protocol\message">
+      <UniqueIdentifier>{aa06024f-1b34-4b63-a5e5-2dd200e097be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="network">
+      <UniqueIdentifier>{93e78d87-3b51-4a6d-be1b-7808a275c181}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="network\buffers">
+      <UniqueIdentifier>{db39e54e-ae93-4715-8fd3-7d9d662a7831}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protocol\message\parsers">
+      <UniqueIdentifier>{f6dd01a9-8b75-4d2f-971a-289a28b526a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="network\connection">
+      <UniqueIdentifier>{1d7981dc-8a95-4a5f-b0c4-a0926a7a47c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="network\timers">
+      <UniqueIdentifier>{bb979d3e-8b4b-4002-bbbc-868350f69505}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="network\I/O">
+      <UniqueIdentifier>{371bfd58-d20f-4679-80a5-46ced2225a46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="network\request_manager">
+      <UniqueIdentifier>{e54e08ba-c208-4a03-8031-992e8fd877fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Forms">
+      <UniqueIdentifier>{57a5d411-dab0-4042-9710-fc665b50829f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Forms\Authentication">
+      <UniqueIdentifier>{3cb76b17-1ea8-4a6c-9551-73c390d9e512}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="persistency">
+      <UniqueIdentifier>{ca052fca-79e3-4ae3-bb46-a56d41db3599}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="persistency\ConfigSettings">
+      <UniqueIdentifier>{aa767cb7-d99e-42c1-b2d0-ebde548b8f97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filesystem">
+      <UniqueIdentifier>{e9f0d9b6-153a-4ae7-a318-73c98b939459}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filesystem\SharedDirectory">
+      <UniqueIdentifier>{5461c6c3-07e5-4b7c-a3ca-f791c77e40ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Forms\MainWindow">
+      <UniqueIdentifier>{db53af50-824b-41b8-8643-417417cc7bab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models">
+      <UniqueIdentifier>{634be4f4-220b-4545-847a-0091f8654f1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="protocol\client validators">
+      <UniqueIdentifier>{9ef895f5-149b-4b79-b5b9-4702c33a4681}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="network\notification handler">
+      <UniqueIdentifier>{240ea856-a46d-419f-8605-517e9279d8a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="network\request_manager\command_backup">
+      <UniqueIdentifier>{2dcf768b-b885-4cf5-950e-d8c29b7f27d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protocol\message\message">
+      <UniqueIdentifier>{0d4d21c0-675b-4692-aa52-e4d8e0ad9387}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="network\connection\heartbeat">
+      <UniqueIdentifier>{0be15175-897e-42c0-b1d0-23438959bc83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protocol\client validators\reply">
+      <UniqueIdentifier>{d7822cf7-df17-4b8f-abb0-2daf26822f8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protocol\client validators\notification">
+      <UniqueIdentifier>{35ef8bbe-d083-460f-908a-ad8668dbdb98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filesystem\monitor">
+      <UniqueIdentifier>{7c208fc9-29ea-4045-89e6-8f72ce991e8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filesystem\monitor\impl">
+      <UniqueIdentifier>{b429c574-1357-4764-9237-db483d9bdee8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="network\download_manager">
+      <UniqueIdentifier>{fdd0986c-d9bc-4020-b4fe-218a2112e563}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filesystem\windows">
+      <UniqueIdentifier>{5f88b495-3622-49bc-839c-806d03f97169}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filesystem\windows\async_file_io">
+      <UniqueIdentifier>{46909f21-bfc5-484a-bed9-9ff348ec545e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="network\querry_manager">
+      <UniqueIdentifier>{4a03fd4b-f1d8-4a93-a68e-ac2b7bb3db65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protocol\client validators\querry">
+      <UniqueIdentifier>{3a8d58b3-3833-4119-aaf7-6c0f495b14fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protocol\compressors">
+      <UniqueIdentifier>{1426b699-6bde-4c2d-9cc4-3c54d31058c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protocol\compressors\bzip2">
+      <UniqueIdentifier>{5af6b66f-d523-43ca-b79b-59f582e8fee7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protocol\compressors\no_compressor">
+      <UniqueIdentifier>{627ae63d-052c-468c-9e7d-44dc936f8711}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protocol\compressors\gzip">
+      <UniqueIdentifier>{647985e3-619c-449e-8426-7325ca24e93b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protocol\compressors\lzma">
+      <UniqueIdentifier>{0d151716-035e-449e-ad21-8f7947d58215}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protocol\compressors\zlib">
+      <UniqueIdentifier>{39111b32-abc5-45f0-a1c8-63bd601074f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protocol\encoding">
+      <UniqueIdentifier>{2e9a4b7e-00fd-475c-ac25-3f7e61ae7cec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protocol\encoding\base64">
+      <UniqueIdentifier>{8c99fc8d-3171-42f7-819a-d3b4b99b7b09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="network\download_manager\file delivers">
+      <UniqueIdentifier>{4a3c83bd-ab2a-4431-bb13-2d1771aed653}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="network\download_manager\file delivers\abstract">
+      <UniqueIdentifier>{df9afd5f-7766-4cc6-b7dd-ff07c11a981e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="network\download_manager\file delivers\stream">
+      <UniqueIdentifier>{0894b1ad-df3d-40a1-bbcc-8a0d1aaa6221}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="network\download_manager\file delivers\compressed">
+      <UniqueIdentifier>{0472be07-065e-4c75-b2d5-17bffa994f51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="network\download_manager\file receivers">
+      <UniqueIdentifier>{061e558d-158c-4ecf-8730-86cd8d8462de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="network\download_manager\file receivers\abstract">
+      <UniqueIdentifier>{7e4ed314-1ac6-4596-8cc0-9a7e7437695e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="network\download_manager\file receivers\stream">
+      <UniqueIdentifier>{d52d46ea-89bd-46ab-8921-c24bfd308f39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="network\download_manager\file receivers\compressed">
+      <UniqueIdentifier>{3866d041-8608-49cf-8f5e-b5d3553db6bf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="connection.cpp">
+      <Filter>network\connection</Filter>
+    </ClCompile>
+    <ClCompile Include="request_manager.cpp">
+      <Filter>network\request_manager</Filter>
+    </ClCompile>
+    <ClCompile Include="AuthenticationForm.cpp">
+      <Filter>Forms\Authentication</Filter>
+    </ClCompile>
+    <ClCompile Include="SharedDirectory.cpp">
+      <Filter>filesystem\SharedDirectory</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWindow.cpp">
+      <Filter>Forms\MainWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\ConfigSettings.cpp">
+      <Filter>persistency\ConfigSettings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\msg_parser.cpp">
+      <Filter>protocol\message\parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="notification_handler.cpp">
+      <Filter>network\notification handler</Filter>
+    </ClCompile>
+    <ClCompile Include="requests_backup_manager.cpp">
+      <Filter>network\request_manager\command_backup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\message.cpp">
+      <Filter>protocol\message\message</Filter>
+    </ClCompile>
+    <ClCompile Include="heartbeat.cpp">
+      <Filter>network\connection\heartbeat</Filter>
+    </ClCompile>
+    <ClCompile Include="reply_validator.cpp">
+      <Filter>protocol\client validators\reply</Filter>
+    </ClCompile>
+    <ClCompile Include="notification_validator.cpp">
+      <Filter>protocol\client validators\notification</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadDirectoryChangesPrivate.cpp">
+      <Filter>filesystem\monitor\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadDirectoryChanges.cpp">
+      <Filter>filesystem\monitor\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectoryWatcher.cpp">
+      <Filter>filesystem\monitor</Filter>
+    </ClCompile>
+    <ClCompile Include="download_manager.cpp">
+      <Filter>network\download_manager</Filter>
+    </ClCompile>
+    <ClCompile Include="querry_manager.cpp">
+      <Filter>network\querry_manager</Filter>
+    </ClCompile>
+    <ClCompile Include="querry_validator.cpp">
+      <Filter>protocol\client validators\querry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\bzip2_compressor.cpp">
+      <Filter>protocol\compressors\bzip2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\gzip_compressor.cpp">
+      <Filter>protocol\compressors\gzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\lzma_compressor.cpp">
+      <Filter>protocol\compressors\lzma</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\zlib_compressor.cpp">
+      <Filter>protocol\compressors\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\base64.cpp">
+      <Filter>protocol\encoding\base64</Filter>
+    </ClCompile>
+    <ClCompile Include="abstract_file_deliver.cpp">
+      <Filter>network\download_manager\file delivers\abstract</Filter>
+    </ClCompile>
+    <ClCompile Include="stream_file_deliver.cpp">
+      <Filter>network\download_manager\file delivers\stream</Filter>
+    </ClCompile>
+    <ClCompile Include="compressed_file_deliver.cpp">
+      <Filter>network\download_manager\file delivers\compressed</Filter>
+    </ClCompile>
+    <ClCompile Include="abstract_file_receiver.cpp">
+      <Filter>network\download_manager\file receivers\abstract</Filter>
+    </ClCompile>
+    <ClCompile Include="stream_file_receiver.cpp">
+      <Filter>network\download_manager\file receivers\stream</Filter>
+    </ClCompile>
+    <ClCompile Include="compressed_file_receiver.cpp">
+      <Filter>network\download_manager\file receivers\compressed</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="connection.h">
+      <Filter>network\connection</Filter>
+    </QtMoc>
+    <QtMoc Include="request_manager.h">
+      <Filter>network\request_manager</Filter>
+    </QtMoc>
+    <QtMoc Include="AuthenticationForm.h">
+      <Filter>Forms\Authentication</Filter>
+    </QtMoc>
+    <QtMoc Include="SharedDirectory.h">
+      <Filter>filesystem\SharedDirectory</Filter>
+    </QtMoc>
+    <QtMoc Include="MainWindow.h">
+      <Filter>Forms\MainWindow</Filter>
+    </QtMoc>
+    <QtMoc Include="notification_handler.h">
+      <Filter>network\notification handler</Filter>
+    </QtMoc>
+    <QtMoc Include="requests_backup_manager.h">
+      <Filter>network\request_manager\command_backup</Filter>
+    </QtMoc>
+    <QtMoc Include="heartbeat.h">
+      <Filter>network\connection\heartbeat</Filter>
+    </QtMoc>
+    <QtMoc Include="download_manager.h">
+      <Filter>network\download_manager</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="AuthenticationForm.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="MainWindow.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="FSPClient.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="network_thread.h">
+      <Filter>network\I/O</Filter>
+    </ClInclude>
+    <ClInclude Include="KeysForQSettings.h">
+      <Filter>persistency</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\mutable_buffer.h">
+      <Filter>network\buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\fs_utils.h">
+      <Filter>filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\simple_timer.h">
+      <Filter>network\timers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\ConfigSettings.h">
+      <Filter>persistency\ConfigSettings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\KeysForConfigSettings.h">
+      <Filter>persistency</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\msg_parser.h">
+      <Filter>protocol\message\parsers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\protocol.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\fsp_commands.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\fsp_headers.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\fsp_content_type_formats.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\fsp_responses.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="delayed_invoker.h">
+      <Filter>network\timers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\message.h">
+      <Filter>protocol\message\message</Filter>
+    </ClInclude>
+    <ClInclude Include="reply_validator.h">
+      <Filter>protocol\client validators\reply</Filter>
+    </ClInclude>
+    <ClInclude Include="notification_validator.h">
+      <Filter>protocol\client validators\notification</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\fsp_notification_types.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\fsp_querry_types.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadSafeQueue.h">
+      <Filter>filesystem\monitor\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadDirectoryChangesPrivate.h">
+      <Filter>filesystem\monitor\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadDirectoryChanges.h">
+      <Filter>filesystem\monitor\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectoryWatcher.h">
+      <Filter>filesystem\monitor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\fsp_ssl_versions.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\fsp_compressions.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\async_windows_file_io.h">
+      <Filter>filesystem\windows\async_file_io</Filter>
+    </ClInclude>
+    <ClInclude Include="querry_manager.h">
+      <Filter>network\querry_manager</Filter>
+    </ClInclude>
+    <ClInclude Include="querry_validator.h">
+      <Filter>protocol\client validators\querry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\abstract_compressor.h">
+      <Filter>protocol\compressors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\bzip2compressor.h">
+      <Filter>protocol\compressors\bzip2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\no_compressor.h">
+      <Filter>protocol\compressors\no_compressor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\gzip_compressor.h">
+      <Filter>protocol\compressors\gzip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\lzma_compressor.h">
+      <Filter>protocol\compressors\lzma</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\zlib_compressor.h">
+      <Filter>protocol\compressors\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\base64.h">
+      <Filter>protocol\encoding\base64</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\fsp_compressors.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="abstract_file_deliver.h">
+      <Filter>network\download_manager\file delivers\abstract</Filter>
+    </ClInclude>
+    <ClInclude Include="stream_file_deliver.h">
+      <Filter>network\download_manager\file delivers\stream</Filter>
+    </ClInclude>
+    <ClInclude Include="compressed_file_deliver.h">
+      <Filter>network\download_manager\file delivers\compressed</Filter>
+    </ClInclude>
+    <ClInclude Include="abstract_file_receiver.h">
+      <Filter>network\download_manager\file receivers\abstract</Filter>
+    </ClInclude>
+    <ClInclude Include="stream_file_receiver.h">
+      <Filter>network\download_manager\file receivers\stream</Filter>
+    </ClInclude>
+    <ClInclude Include="compressed_file_receiver.h">
+      <Filter>network\download_manager\file receivers\compressed</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MainWindow.rc" />
+  </ItemGroup>
+</Project>

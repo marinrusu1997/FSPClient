@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>Resources/Gakuseisean-Ivista-2-Misc-Delete-Database.ico</file>
+        <file>Resources/Visualpharm-Must-Have-Log-Out.ico</file>
+        <file>Resources/Hopstarter-Sleek-Xp-Basic-Files.ico</file>
+        <file>Resources/Saki-Snowish-Authentication-Lock.ico</file>
+        <file>Resources/iconfinder_Download-Computer_379337.png</file>
+    </qresource>
+</RCC>

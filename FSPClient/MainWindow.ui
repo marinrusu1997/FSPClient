@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindowForm</class>
+ <widget class="QMainWindow" name="MainWindowForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>File Sharing Protocol</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="FSPClient.qrc">
+    <normaloff>:/icons/Resources/Hopstarter-Sleek-Xp-Basic-Files.ico</normaloff>:/icons/Resources/Hopstarter-Sleek-Xp-Basic-Files.ico</iconset>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QTreeWidget" name="users_filesTW">
+      <attribute name="headerVisible">
+       <bool>false</bool>
+      </attribute>
+      <column>
+       <property name="text">
+        <string notr="true">1</string>
+       </property>
+      </column>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>600</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuAccount">
+    <property name="title">
+     <string>Account</string>
+    </property>
+    <addaction name="actionDelete"/>
+    <addaction name="actionLog_Out"/>
+   </widget>
+   <widget class="QMenu" name="menuDownloads">
+    <property name="title">
+     <string>Downloads</string>
+    </property>
+    <addaction name="actionMy_Downloads"/>
+    <addaction name="actionMy_Uploads"/>
+   </widget>
+   <addaction name="menuAccount"/>
+   <addaction name="menuDownloads"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionDelete">
+   <property name="icon">
+    <iconset resource="FSPClient.qrc">
+     <normaloff>:/icons/Resources/Gakuseisean-Ivista-2-Misc-Delete-Database.ico</normaloff>:/icons/Resources/Gakuseisean-Ivista-2-Misc-Delete-Database.ico</iconset>
+   </property>
+   <property name="text">
+    <string>Delete</string>
+   </property>
+   <property name="toolTip">
+    <string>Delete you account</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+D</string>
+   </property>
+  </action>
+  <action name="actionLog_Out">
+   <property name="icon">
+    <iconset resource="FSPClient.qrc">
+     <normaloff>:/icons/Resources/Visualpharm-Must-Have-Log-Out.ico</normaloff>:/icons/Resources/Visualpharm-Must-Have-Log-Out.ico</iconset>
+   </property>
+   <property name="text">
+    <string>Log Out</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Alt+Ó</string>
+   </property>
+  </action>
+  <action name="actionDownload">
+   <property name="icon">
+    <iconset resource="FSPClient.qrc">
+     <normaloff>:/icons/Resources/iconfinder_Download-Computer_379337.png</normaloff>:/icons/Resources/iconfinder_Download-Computer_379337.png</iconset>
+   </property>
+   <property name="text">
+    <string>Download</string>
+   </property>
+   <property name="toolTip">
+    <string>Download File of this User</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+D</string>
+   </property>
+  </action>
+  <action name="actionMy_Downloads">
+   <property name="text">
+    <string>My Downloads</string>
+   </property>
+  </action>
+  <action name="actionMy_Uploads">
+   <property name="text">
+    <string>My Uploads</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="FSPClient.qrc"/>
+ </resources>
+ <connections/>
+</ui>
